@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main() {
+int g;
+
+cout<<'A';
+cout<<static_cast<int>('A')<<endl;
+
+cout<<'E';
+cout<<static_cast<int>('E')<<endl;
+
+cout<<'D';
+cout<<static_cast<int>('D')<<endl;
+
+
+cout<<'$';
+cout<<static_cast<int>('$')<<endl;
+
+cout<<'X';
+cout<<static_cast<int>('X')<<endl;
+
+cout<<'T';
+cout<<static_cast<int>('T')<<endl;
+
+
+cout<<'R';
+cout<<static_cast<int>('R')<<endl;
+
+
+  }
