@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+int main() {
+int g;
+int p;
+int f;
+int x;
+int h;
+int l;
+
+
+cin>>x;
+
+//MHR
+
+f=220-x;
+
+g=208-0.7*x;
+
+p=211-0.64*x;
+
+cout<<f<<endl;
+cout<<p<<endl;
+cout<<g<<endl;
+
+if (f>g)
+{if(f>p)
+{cout<<f<<endl;}}
+
+if (p>g)
+{if(p>f)
+{cout<<f<<endl;}}
+
+if (g>f)
+{if(g>p)
+{cout<<f<<endl;}}
+
+
+  
+  }
