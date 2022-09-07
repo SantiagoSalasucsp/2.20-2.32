@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main() {
+int g;
+int p;
+int f;
+int x;
+int BMI;
+
+  cout<<"Ingrese su altura"<<endl;
+  cin>>g;
+  cout<<"Ingrese su peso"<<endl;
+  cin>>p;
+
+  x=p/(g*g);
+  BMI=x;
+    if (BMI<18.15)
+      {cout<<"Estas bajo de peso";}
+    if (BMI==18)
+      {cout<<"PEso normal";}
+    if (BMI>18)
+      {cout<<"Estas con sobre peso";}
+  
+  }
