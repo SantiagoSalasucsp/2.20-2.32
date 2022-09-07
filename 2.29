@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+int g;
+int p;
+int f;
+
+cout<<"Ingrese un numero"<<endl;
+cin>>g;
+p=g*g;
+f=p*g;
+
+cout<<"La superfisie de la base:"<<g<<endl;
+cout<<"Area de la base:"<<p<<endl;
+cout<<"Area del cubo;"<<f<<endl;
+
+
+  
+  }
