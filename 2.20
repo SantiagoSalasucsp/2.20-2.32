@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+float x;
+float z;
+float p;
+float g;
+float f;
+
+cout<<"Ingresa el radio"<<endl;
+cin>>x;
+z=2*x;
+cout<<"Diámetro:"<<z<<endl;
+f=3,14159;
+p=f*(x*x);
+cout<<"Area:"<<p<<endl;
+g=2*f+x;
+cout<<"Circunferencia:"<<g<<endl;
+  return 0; }
